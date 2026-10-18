@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Сборка PyInstaller
+build/
+dist/
+*.spec
+
+# Архивы
+*.zip
+
+# Секреты и сгенерированные конфиги (могут содержать пароли и токены)
+.env
+cloud-config*.yaml
+cloud-config*.yml
+user-data*
+
+# IDE / ОС
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+.DS_Store
